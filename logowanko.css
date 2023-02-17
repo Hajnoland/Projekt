@@ -1,0 +1,78 @@
+html, body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(25, 26, 26);
+    background-image: url('tlo.png');
+    background-size: cover; /* dopasowanie obrazka do rozmiaru elementu */
+  background-position: center; /* wyśrodkowanie obrazka */
+  background-repeat: no-repeat; /* nie powtarzaj obrazka */
+    
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form{
+    height: 60%;
+    width: 40%;
+    background-color: rgb(13, 149, 102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 75px;
+
+}
+
+.a{
+    height: 7.5%;
+    width: 20%;
+    background-color: rgb(13, 149, 102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 50px 50px;
+}
+
+input[type='text'], input[type='password']{
+font-size: 20px;
+width: 80%;
+border: none;
+padding: 3%;
+margin: 3%;
+margin-left: 5%;
+border-radius: 0px 50px 50px  0px;
+}
+
+input[type='submit']{
+width: auto;
+margin-left: 3%;
+margin-top: 10%;
+margin-left: 5%;
+border: none;
+padding:  5% 15%;
+border-radius: 0px 50px 50px  0px;
+background-color: rgb(121, 191, 173);
+}
+
+span{
+    margin-left: 4%;
+}
+
+a{
+    border: none;
+    text-decoration: none;
+    color:rgb(25, 26, 26);
+    padding:  4% 26% 4% 26%;
+    border-radius: 0px 0px 50px  50px;
+    background-color: rgb(121, 191, 173);  
+    margin-bottom: 5%;
+}
+
